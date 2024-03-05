@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+.eslintcache
 
 # Node
 /node_modules
