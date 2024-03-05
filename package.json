@@ -7,6 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "format": "prettier --check \"src/**/*.ts\" \"src/**/*.html\" \"src/**/*.css\"",
+    "format:save": "prettier --write \"src/**/*.ts\" \"src/**/*.html\" \"src/**/*.css\"",
     "prepare": "husky install"
   },
   "private": true,
@@ -37,6 +39,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "prettier": "^3.2.5",
     "typescript": "~5.3.2"
   }
 }
